@@ -181,7 +181,8 @@ body {
   }
   
   .page-footer a {
-    margin-left: 56px;
+    
+    text-align: center;
     color: inherit;
     text-decoration: none;
     background-repeat: no-repeat;
