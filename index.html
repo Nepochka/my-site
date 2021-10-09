@@ -2,42 +2,71 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="outlines.css">
+    <link rel="stylesheet" href="style.css">
     <title>Портфолио Junior верстальщика</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
   </head>
 
   <body>
+    <div class="container">
     <header class="page-header">
-      Nepochatova Darya darena2506@mail.ru
+      <a href="mailto:darena2506@mail.ru" class="header-email">darena2506@mail.ru</a> <a href="tel: +79081152236" class="header-phone">+7-(908)-115-22-36</a>
     </header>
 
     <section class="hero-image">
       <h1 class="heading">Непочатова Дарья</h1>
-      <p>микро-нано электроник</p>
+      <p>микро- и нано- электроник</p>
     </section>
 
     <section class="intro">
       <h2 class="subheading">Давайте познакомимся</h2>
-      <h3>Пара слов о сее</h3>
+      <figure class="subheading" >
+        <img src="files/ebalo.jpg" width="500" height="508" alt="Жопа Непочатова">
+      </figure>
+      <div>
+      <h3>Пара слов о себе</h3>
       <p>Я студентка 4 курса СпбГТУ "ЛЭТИ". 
         Мне не нравятся перспективы работы инженером на заводе, поэтому я тут.
       </p>
+    </div>
+    <div>
       <h3>Чем могу быть полезен</h3>
       <p>Могу сделать вам сайт. (на самом деле пока что не могу)</p>
+    </div>
+    <div class="skills">
+<h3>Мои навыки</h3>
+  <dl class="skills-list">
+    <dt><img src="img/icon-html.svg">HTML</dt>
+    <dd class="level"><div style="width:60%">60%</div></dd>
+    <dt><img src="img/icon-css.svg">CSS</dt>
+    <dd class="level"><div style="width:40%">40%</div></dd>
+    <dt><img src="files/rbv.png" width="40" height="50"> Довести себя до истерики за 5 секунд</dt>
+    <dd class="level"><div style="width:100%">100%</div></dd>
+  </dl>
+</div>
+    </div>
+      
     </section>
 
     <section class="portfolio">
       <h2 class="subheading">Мои работы</h2>
-
+<figure class="project-image">
+<img src="files/project.jpg" width="928" height="536" alt="Cайт магазина товаров для дома">
+</figure>
       <h3>Магазин товаров для дома</h3>
+      <a class="button" href="project-gloevk/index1.html">Открыть страницу </a>
       <p>Мой первый сайт.</p>
 
       <h3>Блог начинающего верстальщика</h3>
       <p>Статический блог про обучение HTML и CSS.</p>
+      <h3>Если Вам понравился сайт, то нажмите</h3>
+      <a class="button" href="Untitled-1.html">сюда</a>
     </section>
+    
 
     <footer class="page-footer">
-      Nepochatova Darya darena2506@mail.ru 
+     <a href="mailto:darena2506@mail.ru" class="footer-email">darena2506@mail.ru</a> <a href="tel: +79081152236" class="footer-phone">+7-(908)-115-22-36</a>
     </footer>
+    </div>
   </body>
 </html>
